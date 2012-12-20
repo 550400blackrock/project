@@ -1,0 +1,67 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2012 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}   
+% possible options include font size ('10pt', '11pt' and '12pt'), paper size
+% ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and
+% 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{banking}                        % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+
+% personal data
+\firstname{Zhenhan}
+\familyname{Zhao}
+\title{Resume title (optional)}               % optional, remove the line if not wanted
+\address{110 W 39th St.}{Baltimore, MD 21210}    % optional, remove the line if not wanted
+\mobile{+1~(443)~794~1225}                     % optional, remove the line if not wanted
+\email{zzhao13@jhu.edu}                          % optional, remove the line if not wanted
+% '64pt' is the height the picture must be resized to, 0.4pt is the thickness
+% of the frame around it (put it to 0pt for no frame) and 'picture' is the
+% name of the picture file; optional, remove the line if not wanted
+
+\quote{Some quote (optional)}                 % optional, remove the line if not wanted
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Education}
+\cventry{2011--2012}{MSC in Financial Math}{Johns Hopkins University}{Baltimore}{\textit{4.0}}{Courseworks: Monte Carlo Methods, Financial Engineering, Financial Derivatives, Optimization in Finance, Mathematical Modeling and Consulting}
+\cventry{2007--2011}{BS in Economics}{University of International Business and Economics}{Beijing}{\textit{3.7}}{Courseworks: International Economics, Public Economics, Macro Economics, Econometrics}  % arguments 3 to 6 can be left empty
+
+\section{Experience}
+\subsection{Internships and Part-time Works}
+\cventry{2012}{Fixed-income Intern}{Guosen Securities}{Beijing}{}{Responsible for preliminary investment and macro-economic analysis, participated in liaison with clients for bond underwriting business}
+\cventry{2010}{Part-time Analyst}{Deutsche Bank}{Beijing}{}{Participated in company's website construction and translation\newline{}communicated with clients and assisted supervisor with investment immigration solutions}
+\cventry{2009}{Summer Analyst}{HSBC}{Xi'an}{}{Participated in FX dealings, collected corporate information to assist final decision of the team; communicated with clients, helped resolve their financial needs}
+
+\section{Language}
+\cvitemwithcomment{English}{Fluent}{American, British}
+\cvitemwithcomment{Chinese}{Native}{Mandarine, Sichuan}
+
+\section{Computer skills}
+\cvdoubleitem{Statistics}{Excel, SPSS, Eviews}{Programming}{R, SAS, Matlab}
+
+\section{Interests}
+\cvitem{Basketball}{Amateur}
+\cvitem{Movies}{Small clip directing}
+
+%\section{Interests (Option 2)}
+%\cvlistitem{Item 1}
+%\cvlistitem{Item 2}
+
+\end{document}
